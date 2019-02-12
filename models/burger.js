@@ -1,5 +1,4 @@
-/// Make sure we wait to attach our handlers until the DOM is fully loaded.
-$(function() {
+
 
     // Add a new burger.
     $(".create-form").on("submit", function(event) {
@@ -51,4 +50,3 @@ $(function() {
         }).then(location.reload());
     });
 
-})
